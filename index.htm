@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="assets/images/icon.jpg"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FNAF CARTAS</title>
+    <script src="script.js/scripts.js"></script>
+    <link rel="stylesheet" href="estilos.ccs/mystyles.css">
+</head>
+
+<body onload="start()">
+
+    <section id="sect1" class="sect">
+        <video src="assets/videos/FNAF Security Camera View (Interactive) mini demo. (Lively) (Wallpaper Engine)  (No Jumpscares!!!).mp4" 
+        autoplay muted loop
+        poster="assets/images/fondo.jpg"></video>
+      
+        <!-- Marcadores -->
+        <p><strong id="intentos">Intentos:</strong> <span id="intentos">0</span></p>
+        <p><strong id="Aciertos">Aciertos:</strong> <span id="conta1">0</span></p>
+        
+        <!-- Botón para reiniciar -->
+        <button onclick="start()">Nuevo Juego</button>
+        
+        <!-- Tablero -->
+        <div id="tablero"></div>
+    </section>
+
+    <iframe 
+    width="800" 
+    height="600" 
+    allow="fullscreen; autoplay; encrypted-media" 
+    src="https://games.construct.net/9645/latest" 
+    frameborder="0" 
+    allowfullscreen="true" 
+    msallowfullscreen="true" 
+    mozallowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    allowpaymentrequest="false" 
+    referrerpolicy="unsafe-url" 
+    sandbox="allow-same-origin allow-forms allow-scripts allow-pointer-lock allow-orientation-lock allow-popups" 
+    scrolling="no">
+    </iframe>
+
+
+    
+</body>
+</html>
